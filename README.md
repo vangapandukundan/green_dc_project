@@ -76,4 +76,9 @@ Open browser at → **http://localhost:8501**
 ---
 
 ## 👨‍💻 Author
-V. Kundan — Green Computing College Assignment Project
+V. Kundan — Green Computing 
+
+
+GLOBALLY :-
+
+https://greendcproject-kundan.streamlit.app/
