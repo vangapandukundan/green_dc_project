@@ -50,11 +50,11 @@ def load_data():
     df["workload_encoded"] = df["workload_type"].astype("category").cat.codes
     return df
 
+# ── Page config MUST be first ─────────────────────────────────
+st.set_page_config(page_title="Green DC Dashboard", layout="wide")
+
 model = get_model()
 df    = load_data()
-
-# ── Page config ───────────────────────────────────────────────
-st.set_page_config(page_title="Green DC Dashboard", layout="wide")
 st.title("🌿 Green Computing Data Center Dashboard")
 st.markdown("Predict energy usage, track CO₂, and identify zombie servers.")
 
@@ -140,6 +140,3 @@ ax2.set_ylabel("Count")
 ax2.set_title("Distribution of CO₂ Emissions Across All Servers")
 plt.tight_layout()
 st.pyplot(fig2)
-
-
-
