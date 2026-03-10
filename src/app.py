@@ -140,3 +140,6 @@ ax2.set_ylabel("Count")
 ax2.set_title("Distribution of CO₂ Emissions Across All Servers")
 plt.tight_layout()
 st.pyplot(fig2)
+
+
+
