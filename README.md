@@ -108,6 +108,3 @@ streamlit run src/dashboard/app.py
 * **Frontend UI:** Streamlit, Plotly, HTML/CSS
 
 ---
-
-## 👨‍💻 Data Science Portfolio Notes
-This project was designed primarily to demonstrate full-stack data science capabilities. The architecture specifically focuses on module separation (Single Responsibility Principle), robust validation methodologies (K-Fold CV), lack-of-bias verifications (SHAP), and building accessible, beautiful tools to present complex Machine Learning behavior to stakeholders.
