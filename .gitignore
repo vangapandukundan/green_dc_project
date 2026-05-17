@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Models & Data (Since we auto-train on the fly)
+models/*.pkl
+outputs/
+model.pkl
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
